@@ -1,0 +1,13 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+:root{
+    --azul : #0a2f74;
+    --rosa : #b91a87b0;
+    --branco : #ffecf9;
+    --verde : #008812;
+    --vermelho : #690000;
+    --header : #ceb4f7;
+}

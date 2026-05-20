@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/all.css">
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+
+    <main>
+        <h1>Login Sistema Educacional</h1>
+        <form id="loginForm">
+            <div class="inputGrupo">
+                <label for="email"> @ </label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="inputGrupo">
+                <label for="senha"> * </label>
+                <input type="password" name="senha" id="senha">
+            </div>
+            <div class="inputGrupo" style="display: flex; flex-direction: column; gap: 5px;">
+                <button type="submit"> ACESSAR CONTA </button>
+                <p style="color: brown; display: none;" id="erro"> USUARIO INCORRETO </p>
+            </div>
+        </form>
+
+    </main>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
